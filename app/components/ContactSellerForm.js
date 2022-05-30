@@ -31,6 +31,7 @@ function ContactSellerForm({ listing }) {
 
   return (
     <View style={styles.container}>
+      <TextField></TextField>
       <AppForm
         initialValues={{ message: "" }}
         onSubmit={handleSubmit}
